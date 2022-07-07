@@ -1,0 +1,1 @@
+CSV SCAN data/appleStock.csv; PROJECT 2/2 COLUMNS; SELECTION: Some([([(col("Close")) > (100f64)]) & ([(col("Date")) == (813801600000000000i64.strict_cast(Datetime(Microseconds, None)).map().cast(Utf8))])])
